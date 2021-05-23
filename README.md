@@ -3,15 +3,19 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
+	
   <a href="https://github.com/juanaviladev/google-popular-times">
    🔎 ⏳
+	  
   </a>
 
-<h3 align="center">Google popular times</h3>
+<h3 align="center">Google popular times
+	
+![Release](https://jitpack.io/v/juanaviladev/google-popular-times.svg)
+</h3>
 
   <p align="center">
     A simple library for extracting popular times from a google search
@@ -89,22 +93,22 @@ What it doesn't do
 
 ## Installation
 
-To get a copy up and running follow these simple steps. You can find the latest version [here](https://github.com/juanaviladev/google-popular-times/releases) or at [Jitpack](https://jitpack.io/juanaviladev/google-popular-times).
+To get a copy up and running follow these simple steps. You can find the latest version [here](https://github.com/juanaviladev/google-popular-times/releases) or at [Jitpack](https://jitpack.io/juanaviladev/google-popular-times). 
 
 ### Maven
 
 * Add this snippet to the 'dependencies' section in your pom.xml:
 
-```
-	<dependency>
+```xml 
+<dependency>
 	    <groupId>com.github.juanaviladev</groupId>
 	    <artifactId>google-popular-times</artifactId>
 	    <version>latest-version-here</version>
-	</dependency>
+</dependency>
 ```
 
 Also, this one into the 'repositories' section:
-```
+```xml 
 <repository>
   <id>jitpack.io</id>
   <url>https://jitpack.io</url>
@@ -115,8 +119,8 @@ Also, this one into the 'repositories' section:
 
 * Add it in your root build.gradle at the end of repositories:
 
-```
-	allprojects {
+```groovy
+allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
@@ -125,7 +129,7 @@ Also, this one into the 'repositories' section:
 ```
 
 Also, add the dependency:
-```
+```groovy
 dependencies {
   implementation 'com.github.juanaviladev:google-popular-times:latest-version'
 }
