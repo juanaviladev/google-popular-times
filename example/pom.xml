@@ -6,7 +6,7 @@
 
     <groupId>dev.juanavila</groupId>
     <artifactId>google-popular-times-example</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -17,7 +17,7 @@
     <dependencies>
         <dependency>
             <groupId>dev.juanavila</groupId>
-            <version>0.0.1</version>
+            <version>0.0.2-SNAPSHOT</version>
             <artifactId>google-popular-times</artifactId>
         </dependency>
         <dependency>
