@@ -43,6 +43,7 @@
       <a href="#installation">Installation</a>
       <ul>
         <li><a href="#maven">Maven</a></li>
+         <li><a href="#gradle">Gradle</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -88,19 +89,46 @@ What it doesn't do
 
 ## Installation
 
-To get a copy up and running follow these simple steps.
+To get a copy up and running follow these simple steps. You can find the latest version [here](https://github.com/juanaviladev/google-popular-times/releases) or at [Jitpack](https://jitpack.io/juanaviladev/google-popular-times).
 
 ### Maven
 
-* Add this snippet to your pom.xml. You can find the latest
-  version [here](https://github.com/juanaviladev/google-popular-times/releases).
+* Add this snippet to the 'dependencies' section in your pom.xml:
 
 ```
-<dependency>
-  <groupId>dev.juanavila</groupId>
-  <artifactId>google-popular-times</artifactId>
-  <version>latest version</version>
-</dependency>
+	<dependency>
+	    <groupId>com.github.juanaviladev</groupId>
+	    <artifactId>google-popular-times</artifactId>
+	    <version>latest-version-here</version>
+	</dependency>
+```
+
+Also, this one into the 'repositories' section:
+```
+<repository>
+  <id>jitpack.io</id>
+  <url>https://jitpack.io</url>
+</repository>
+```
+
+### Gradle
+
+* Add it in your root build.gradle at the end of repositories:
+
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+Also, add the dependency:
+```
+dependencies {
+  implementation 'com.github.juanaviladev:google-popular-times:latest-version'
+}
 ```
 
 <!-- USAGE EXAMPLES -->
