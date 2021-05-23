@@ -42,7 +42,7 @@
     <li>
       <a href="#installation">Installation</a>
       <ul>
-        <li><a href="#jar-dependency">JAR dependency</a></li>
+        <li><a href="#maven">Maven</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -90,16 +90,24 @@ What it doesn't do
 
 To get a copy up and running follow these simple steps.
 
-### Jar dependency
+### Maven
 
-* Download from here the [latest release](https://github.com/juanaviladev/google-popular-times/releases) and it on your
-  project.
+* Add this snippet to your pom.xml. You can find the latest
+  version [here](https://github.com/juanaviladev/google-popular-times/releases).
+
+```
+<dependency>
+  <groupId>dev.juanavila</groupId>
+  <artifactId>google-popular-times</artifactId>
+  <version>latest version</version>
+</dependency>
+```
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-Please visit [example module](https://github.com/juanaviladev/LiveRSS-Android/tree/master/example)  to see a fully
+Please visit [example module](https://github.com/juanaviladev/google-popular-timnes/tree/master/example)  to see a fully
 working example.
 
 <!-- ROADMAP -->
